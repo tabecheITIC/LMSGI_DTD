@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "cataleg.dtd">
+
+<cataleg>
+    <llista_actors>
+        <actor id="01">
+            <nom>Naruto</nom>
+            <edat>17</edat>
+        </actor>
+         <actor id="02">
+            <nom>Sasuke</nom>
+            <edat>17</edat>
+        </actor>
+    </llista_actors>
+
+    <llista_pelicules>
+        <pelicula id=15>
+            <titol idoms="Anglés">Naruto Shippuden The last</titol>
+            <director>Tsuneo Kobayashi</director>
+            <any>2014</any>
+            <actors>
+                <actor_ref ref="02"/>
+                <actor_ref ref="02"/>
+            </actor>
+        </pelicula>
+    </llista_pelicules>
+
+    <llista_recomanacions_pelicules>
+       <recomanacio ref="15"/>
+    </llista_recomanacions_pelicules>
+</cataleg>
